@@ -26,7 +26,7 @@ export default function Acc() {
   }, []);
   return (
     <div>
-      <p className='FQAs'> FREQUENTLY QUESTIONS AND ANSWERS</p>
+      <p className='FAQs'> FREQUENTLY ASKED QUESTIONS</p>
 <button className="accordion">Log out from your computer</button>
 <div className="panel">
 <p>  1. Open WhatsApp Web or WhatsApp Desktop.

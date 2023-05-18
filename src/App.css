@@ -11,14 +11,17 @@
   transition: 0.4s;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 300px;
+  
 }
 
-.FQAs{
+.FAQs{
   text-align: center;
   font-size: 20px;
   font: bolder;
   padding-top: 50px;
   font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-weight: bolder;
 }
 
 .active, .accordion:hover {
@@ -45,6 +48,8 @@
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   margin-left: 300px;
+  margin-right: 415px;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 
