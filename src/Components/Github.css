@@ -1,0 +1,40 @@
+button{
+    padding: 0.7rem;
+    border-radius:6px;
+    margin-left: 4px;
+    background-color: white;
+    color:black;
+}
+h1{
+    font-weight: bold;
+    
+}
+
+img{
+    width: 70px;
+}
+
+.General{
+    padding-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+input{
+    width:30%;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.result{
+    padding-top:20px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.git{
+    padding-bottom:10px;
+    color: white;
+}

@@ -6,9 +6,9 @@ export default function Acc() {
       event.target.classList.toggle('active');
       const panel = event.target.nextElementSibling;
       if (panel.style.maxHeight) {
-        panel.style.maxHeight = null;
+      panel.style.maxHeight = null;
       } else {
-        panel.style.maxHeight = panel.scrollHeight + 'px';
+      panel.style.maxHeight = panel.scrollHeight + 'px';
       }
     };
 
