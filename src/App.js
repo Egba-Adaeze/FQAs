@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import Acc from './Components/Acc'
 import './App.css';
 import Github from "./Components/Github";
+import Slider from "./Components/Slider";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Acc />} />
         <Route path="/quotes" element = {<Quotes/>}/>
         <Route path="/github" element = {<Github/>} />
+        <Route path="/slider" element = {<Slider/>} />
         </Routes>
     </BrowserRouter>
     </div>
