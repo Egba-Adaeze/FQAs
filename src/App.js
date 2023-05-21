@@ -5,6 +5,7 @@ import Acc from './Components/Acc'
 import './App.css';
 import Github from "./Components/Github";
 import Slider from "./Components/Slider";
+import Shoplist from "./Components/Shoplist";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/quotes" element = {<Quotes/>}/>
         <Route path="/github" element = {<Github/>} />
         <Route path="/slider" element = {<Slider/>} />
+        <Route path="/shoplist" element = {<Shoplist/>} />
         </Routes>
     </BrowserRouter>
     </div>

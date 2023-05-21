@@ -1,0 +1,66 @@
+.Shoplist {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    margin-right: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #0a79df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  h1{
+ text-align: center;
+ color: white;
+ padding-top: 5rem;
+ margin-bottom: 1rem;
+ font-family: 'Times New Roman', Times, serif;
+  }
+
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    background-color: #f0f0f0;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  
+  li span {
+    flex-grow: 1;
+  }
+  
+  li button {
+    margin-left: 1rem;
+    background-color: #ff5252;
+  }
+
